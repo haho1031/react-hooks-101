@@ -56,12 +56,6 @@ const EventForm = () => {
           dispatch({
             type: DELETE_ALL_OPERATION_LOGS,
           });
-  
-          dispatch({
-              type: ADD_OPERATION_LOG,
-              description: "全ての操作ログを削除しました。",
-              operatedAt: timeCurrentIso8601()
-          });
         }
     }
 
